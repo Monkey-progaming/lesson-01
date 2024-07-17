@@ -1,0 +1,13 @@
+EX1
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace  std;
+int main() {
+   double x = 10.0;
+   double y = 5.0;
+   double z;
+   
+   z = (x + 10) / (3 * y);
+   std::cout << z;
+    return 0;
+}

@@ -1,0 +1,29 @@
+EX2
+#include <iostream>
+using namespace std;
+int main() 
+{
+    double f;
+    cout << "Ente fahrenheit: ";
+    cin >> f;
+    cout << "ceclius = " << (f - 32) * 5/9 << endl;
+      
+      
+    double c;
+    cout << "enter ceclius = ";
+    cin >> c;
+    cout << "fahrenheit = " << (9/5 * c) + 32 << endl;
+    
+    
+    double k;
+    cout << "enter kelvin = ";
+    cin >> k;
+    cout << "fahreinheit :" << (k - 273.15) * 1.8 + 32 << endl;
+    
+    
+    cout << "enter kelvin = ";
+    cin >> k;
+    cout << "celcius" << k - 273.15 << endl;
+    
+    return 0;
+}
